@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/pragmatic-applications/MAK.Lib.HttpFeature</RepositoryUrl>
+        <Authors>Maurice Antonio Kelly @MAKMaurice</Authors>
+        <Company>Pragmatic Applications</Company>
+        <Description>.NET6 C# Library</Description>
+        <PackageReleaseNotes>.NET6 C# Library</PackageReleaseNotes>
+        <PackageTags>.NET6 C# Library</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryType>.NET6 C# Library</RepositoryType>
+        <Copyright>Pragmatic Applications - Maurice Antonio Kelly @MAKMaurice</Copyright>
+        <Version>0.0.0.5</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>
