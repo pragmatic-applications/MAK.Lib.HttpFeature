@@ -14,10 +14,11 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryType>.NET6 C# Library</RepositoryType>
         <Copyright>Pragmatic Applications - Maurice Antonio Kelly @MAKMaurice</Copyright>
-        <Version>0.0.0.5</Version>
+        <Version>0.0.0.6</Version>
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="MAK.Lib.CoreLite" Version="0.0.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
     </ItemGroup>
 
